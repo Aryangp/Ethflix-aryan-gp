@@ -1,0 +1,25 @@
+
+.nav_contents{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    background-color: rgba(17, 17, 17, 0.358);
+  
+}
+.nav_img{
+    width: 100px;
+    height: 70px;
+    z-index: 10;
+    position:fixed;
+}
+.nav_logo{
+    width: 130px;
+    height: 80px;
+}
+.nav_avator{
+    position:fixed;
+    right: 2px;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}

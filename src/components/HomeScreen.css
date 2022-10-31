@@ -1,0 +1,12 @@
+.homeScreen{
+    display: grid;
+    height: 100vh;
+    grid-template-rows:40% 50% ;
+}
+.movies_list{
+    position: absolute;
+    top: 70%;
+}
+.movies_list::-webkit-scrollbar{
+    display: none;
+}
