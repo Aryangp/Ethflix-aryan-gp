@@ -5,7 +5,7 @@
 }
 .movies_list{
     position: absolute;
-    top: 70%;
+     top: 83%;
 }
 .movies_list::-webkit-scrollbar{
     display: none;

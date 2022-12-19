@@ -33,7 +33,7 @@ function SignUpScreen() {
   return (
     <div className='sign_up_page' style={{ backgroundImage: `url(${backN})` }}>
         
-        <form style={{margin:'30px'}} onSubmit={handleSubmit((data) => createAccountByEmail(data.email,data.password))} >
+        <form style={{margin:'30px'}} onSubmit={handleSubmit((data) => createAccountByEmail(data.name,data.email,data.password))} >
         <div className='form-bg'>
           <div >
         <Typography variant="h6" gutterBottom style={{color:'white'}}></Typography>

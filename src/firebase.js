@@ -1,5 +1,6 @@
 import { initializeApp } from "firebase/app";
-import { getAuth,createUserWithEmailAndPassword,signInWithEmailAndPassword ,onAuthStateChanged, signOut} from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
+import { getAuth} from "firebase/auth";
 
 const firebaseConfig = {
   apiKey: "AIzaSyC_pb3wRGFKu9mSpAdWZ7MdAvVXK6l3Itw",
@@ -13,35 +14,8 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
-
-// async function createAccountByEmail(email,password){
-//   try{
-//       const userCrendentials=await createUserWithEmailAndPassword(auth,email,password);
-//       console.log(( userCrendentials).user)
-//   }catch(error){
-//     console.log(error);
-//   }
-  
-// }
-// async function signInWithEmail(email,password){
-//   try{
-//       const userCrendentials=await signInWithEmailAndPassword(auth,email,password);
-//       console.log(( userCrendentials).user)
-//   }catch(error){
-//     console.log(error);
-//   }
-  
-// }
-// async function logOut(){
-//   try{
-//     await signOut(auth);
-//   }catch(err){
-//     console.log(err);
-//   }
-  
-// }
-
-export {auth};
+const db=getFirestore(app);
+export {auth,db};
 
 
 

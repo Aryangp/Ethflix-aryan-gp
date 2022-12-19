@@ -8,9 +8,13 @@
   box-shadow:2px;
   object-fit: contain;
 }
+.banner_title{
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .banner_content{
     position: absolute;
-    top: 6em;
+    top: 8em;
     left: 4em;
   
 }

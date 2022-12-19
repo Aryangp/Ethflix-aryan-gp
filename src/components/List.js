@@ -4,7 +4,7 @@ import Row from './Row'
 
 function List() {
   return (
-    <>
+    <div className=''>
      <Row title={"Netflix originals"} fetchUrl={requests.fetchNetflixOriginals} isLarge={true}/>
       <Row title={"Top rated"} fetchUrl={requests.fetchTopRated} isLarge={true}/>
       <Row title={"Trending"} fetchUrl={requests.fetchTrending} isLarge={true}/>
@@ -13,7 +13,7 @@ function List() {
       <Row title={"Documentaries"} fetchUrl={requests.fetchDocumentaries} isLarge={true}/>
       <Row title={"Horror Movies"} fetchUrl={requests.fetchHorrorMovies} isLarge={true}/>
       <Row title={"Romance Movies"} fetchUrl={requests.fetchRomanceMovies} isLarge={true}/>
-    </>
+    </div>
   )
 }
 

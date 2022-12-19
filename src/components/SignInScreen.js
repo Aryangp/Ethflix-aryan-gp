@@ -94,7 +94,7 @@ function SignInScreen() {
             <br/>
             <GoogleButton onClick={()=>handlerGoogleSign()}/>
           </div>
-          <Typography variant="h13" gutterBottom style={{ display: 'flex', justifyContent: 'center', margin: '20px', color: 'white' }}>
+          <Typography  variant="h13" gutterBottom style={{ display: 'flex', justifyContent: 'center', margin: '20px', color: 'white' }}>
             New to netflix?  <Link href="/signup" underline="hover" color="primary" style={{marginLeft:'6px'}}> create account </Link></Typography>
           </div>
         </div>

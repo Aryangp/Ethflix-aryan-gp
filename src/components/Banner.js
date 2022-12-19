@@ -17,12 +17,12 @@ function Banner({movies}) {
              }} >
             <div className='banner_content'>
             <div className='banner_img '></div>
-            <div className='banner-title'><h1>{movies?.name||movies?.title||movies?.original_name}</h1></div>
+            <div className='banner_title text-xl font-extrabold'><h1>{movies?.name||movies?.title||movies?.original_name}</h1></div>
             <div className='banner-buttons'>
                 <button className='banner_button'>Play</button>
                 <button className='banner_button'>My List</button>
             </div>
-            <div className='banner_discription'>
+            <div className='banner_discription font-bold'>
              {movies.overview}
 
             </div>

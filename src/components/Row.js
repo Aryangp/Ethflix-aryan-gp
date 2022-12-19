@@ -15,7 +15,7 @@ function Row({fetchUrl,isLarge,title}) {
   
   return (
   <div>
-     <h2 style={{color:"white",marginLeft:"10px"}}>{title}</h2>
+     <h2 style={{color:"white",marginLeft:"10px"}} className='font-bold text-xl'>{title}</h2>
        {posters? ( <div className='row_posters'>
        
             {posters.map((poster)=>{
