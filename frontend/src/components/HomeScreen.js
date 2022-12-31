@@ -13,10 +13,12 @@ import SignInScreen from './SignInScreen';
 import { auth } from '../firebase';
 import { UserAuth } from '../context/AuthContext';
 import UserProfile from './UserProfile/UserProfile';
+import MovieDetail from './MovieDetail/MovieDetail';
 
 function HomeScreen() {
   const { user } = UserAuth()
   const [movies, setMovies] = useState([]);
+
   useEffect(() => {
     async function fetchMovies() {
       const request = await axios.get(requests.fetchNetflixOriginals);
@@ -49,6 +51,7 @@ function HomeScreen() {
           <Route path='/login' element={<SignInScreen />} />
           <Route path='/signup' element={<SignUpScreen />} />
           <Route path='/user/profile' element={<UserProfile />} />
+          <Route path="/movie/:id" element={<MovieDetail/>}/>
         </Routes>
 
 

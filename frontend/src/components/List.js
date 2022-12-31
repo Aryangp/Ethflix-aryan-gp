@@ -5,7 +5,6 @@ import Row from './Row'
 function List() {
   return (
     <div className=''>
-     <Row title={"Netflix originals"} fetchUrl={requests.fetchNetflixOriginals} isLarge={true}/>
       <Row title={"Top rated"} fetchUrl={requests.fetchTopRated} isLarge={true}/>
       <Row title={"Trending"} fetchUrl={requests.fetchTrending} isLarge={true}/>
       <Row title={"Action Movies"} fetchUrl={requests.fetchActionMovies} isLarge={true}/>
