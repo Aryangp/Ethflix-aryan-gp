@@ -1,5 +1,10 @@
 # Ethflix-aryan-gp
 ## An overview video of project 
+This project is a movie streaming app where you have different movies data coming from tmdb database and Authentication 
+using firebase .it has subscription plan of 1,3 and 6 months where you pay 0.005 ether for 1 month as month increases price multiples 
+after payed you have premium access to movie detail page and watch trailer of movies and get specific details about a movie .
+much more things will be added to this projects
+<br>
 
 https://user-images.githubusercontent.com/91003905/210311767-54a23b5a-bab4-41e7-b650-00a2937400a5.mp4
 
