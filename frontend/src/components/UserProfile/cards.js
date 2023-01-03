@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { UserAuth } from "../../context/AuthContext";
 import { UserData } from "../../context/DataContext";
 import { EthData } from "../../context/EthContext";
-import logoN from "../../images/logoN.png";
+import logoN from "../../images/logoN1.png";
 
 function Cards({ months }) {
   const {
@@ -51,9 +51,8 @@ async function saveUserInfo(lastMomentPay,expireDatePay){
       <div class="px-2 py-3 bg-white">
         <div class="font-bold text-xl mb-2">{months}-Months Plan</div>
         <p class="text-gray-700 text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
-          quia, nulla! Maiores et perferendis eaque, exercitationem praesentium
-          nihil.
+         `${months} Months plan where you get prefered details and 
+         just for you content much more`
         </p>
       </div>
       {currentAccount ? (
