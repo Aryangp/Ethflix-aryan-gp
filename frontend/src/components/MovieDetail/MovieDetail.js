@@ -9,16 +9,17 @@ function MovieDetail() {
   const params = useParams();
   const [detail, setDetail] = useState();
   const [videoDetail, setVideoDetail] = useState();
+  const API_KEY=process.env.REACT_TMBD_KEY;
   async function fetchDetails() {
     const request = await axios.get(
-      `/movie/${params.id}?api_key=293d882a2912f1e983be1d7725a6b3af&language=en-US`
+      `/movie/${params.id}?api_key=${API_KEY}&language=en-US`
     );
     setDetail(request.data);
     console.log(request.data);
   }
   async function fetchVideoDetail() {
     const request = await axios.get(
-      `https://api.themoviedb.org/3/movie/${params.id}/videos?api_key=293d882a2912f1e983be1d7725a6b3af&language=en-US`
+      `https://api.themoviedb.org/3/movie/${params.id}/videos?api_key=${API_KEY}&language=en-US`
     );
     setVideoDetail(request.data);
   }

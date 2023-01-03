@@ -8,6 +8,7 @@ export const EthContextProvider = ({ children }) => {
   const [lastMoment, setLastmoment] = useState();
   const [expireDate, setExpireDate] = useState();
   const contractAbi = abi.abi;
+  // I did not put this in .env file because user can see this on goreli etherscan and details 
   const contractAddress = "0xD96a08E6a845014B1686EBeF5da19CFd2A7f2F6D";
   const ownerAddress="0xf647a7872bc2193d8e3626cfeec1004690d7f21f"
   const isWalletConnected = async () => {
