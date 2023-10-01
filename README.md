@@ -34,7 +34,8 @@ for buying subscription you dont need real etherum using alchemy and goreli ethe
 #### Add goreli ether from https://goerlifaucet.com/
 #### Above steps will set up you metamask and set test network goreli test network in metamask
 #### get api key from tmbd database 
-
+### Firebase
+ - In frontend firebase.js file change the current configeration to yours as firebase is used in this app for authentication and database 
 ### Contribution
 feel free to contribute to this project give your ideas and suggestion 
 ### Contact with me 
