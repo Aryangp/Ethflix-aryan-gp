@@ -37,7 +37,7 @@ for buying subscription you dont need real etherum using alchemy and goreli ethe
 ### Firebase
  - In frontend firebase.js file change the current configeration to yours as firebase is used in this app for authentication and database 
 ### Contribution
-feel free to contribute to this project give your ideas and suggestion 
+feel free to contribute to this project give your ideas and suggestion . Go throught the [Contribution guidelines](https://github.com/Aryangp/Ethflix-aryan-gp/blob/master/CONTRIBUTING.md)
 ### Contact with me 
 if you have any doubt in this project that you want to ask feel free to email me you issue at <br>
  guptaaryan0510@gmail.com 
