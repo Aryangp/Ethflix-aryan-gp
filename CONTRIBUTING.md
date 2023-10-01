@@ -20,7 +20,7 @@ Thank you for your interest in contributing to the Ethflix project! We appreciat
 
 8. **Push Your Changes**: Push your branch to your GitHub fork:
 
-9. **Create a Pull Request (PR)**: Open a pull request against the `main` branch of the [original Ethflix repository](https://github.com/Aryangp/Ethflix-aryan-gp). Be sure to provide a detailed description of your changes in the PR.
+9. **Create a Pull Request (PR)**: Open a pull request against the `master` branch of the [original Ethflix repository](https://github.com/Aryangp/Ethflix-aryan-gp). Be sure to provide a detailed description of your changes in the PR.
 
 
 
